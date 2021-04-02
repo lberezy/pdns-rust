@@ -9,9 +9,14 @@ edition = "2018"
 [dependencies]
 pallet = "0.7.0"
 pallet-macros = "0.4"
-serde = {version = "1", features = ["derive"]}
+serde = { version = "1", features = ["derive"] }
 sled = "0.34.6"
 tantivy = "0.14"
-chrono = {version = "0.4.19", features = ["serde"]}
+chrono = { version = "0.4.19", features = ["serde"] }
 log = "0.4"
 env_logger = "0.8.2"
+actix-web = "3"
+async-graphql = "2.5.2"
+async-graphql-actix-web = "2.5.2"
+async-trait = "0.1.42"
+dataloader = "0.14"
